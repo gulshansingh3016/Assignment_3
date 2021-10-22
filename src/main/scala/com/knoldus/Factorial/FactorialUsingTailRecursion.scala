@@ -11,7 +11,6 @@ class FactorialUsingTailRecursion {
         factorialHelper(num -1 , num * accumulator)
       }
     }
-    //factorialTailRecursion(number)
     factorialHelper(number, 1)
     /*
     factorialTailRecursion(10) = factorialHelper(10, 1)
